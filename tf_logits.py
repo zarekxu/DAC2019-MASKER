@@ -18,6 +18,7 @@ os.path.exists = lambda x: True
 import DeepSpeech
 os.path.exists = tmp
 
+#-------refer from Audio Adversarial Example--------
 def compute_mfcc(audio, **kwargs):
     """
     Compute the MFCC for a given audio waveform. This is
